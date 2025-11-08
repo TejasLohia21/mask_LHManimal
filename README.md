@@ -20,11 +20,9 @@ This tool is designed to be easily integrated into larger computer vision pipeli
 
 ### Demo
 
-*(Suggestion: Create a side-by-side image showing an input image and the final `_mask.png` output. Place it in a folder like `assets/` and link it here.)*
-
 | Input Image                                     | Generated Mask                                    |
 | ----------------------------------------------- | ------------------------------------------------- |
-| ![Input Tiger](demo/images/your_tiger_image.png) | ![Output Mask](demo/masks/your_tiger_mask.png) |
+| ![Input Tiger](demo/images/bengal-tiger-characterstics-compared-930x620_0.png) | ![Output Mask](demo/masks/bengal-tiger-characterstics-compared-930x620_0_mask.png) |
 
 ---
 
