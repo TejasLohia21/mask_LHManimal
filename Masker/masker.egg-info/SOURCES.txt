@@ -1,0 +1,13 @@
+setup.py
+./masker/__init__.py
+./masker/cli.py
+./masker/config.py
+./masker/init.py
+./masker/postproc.py
+./masker/predictor.py
+./masker/utils.py
+masker.egg-info/PKG-INFO
+masker.egg-info/SOURCES.txt
+masker.egg-info/dependency_links.txt
+masker.egg-info/requires.txt
+masker.egg-info/top_level.txt
