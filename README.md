@@ -22,7 +22,7 @@ This tool is designed to be easily integrated into larger computer vision pipeli
 
 | Input Image                                     | Generated Mask                                    |
 | ----------------------------------------------- | ------------------------------------------------- |
-| ![Input Tiger](demo/images/bengal-tiger-characterstics-compared-930x620_0.png) | ![Output Mask](demo/masks/bengal-tiger-characterstics-compared-930x620_0_mask.png) |
+| ![Input Tiger](Masker/demo/images/bengal-tiger-characterstics-compared-930x620_0.png) | ![Output Mask](Masker/demo/masks/bengal-tiger-characterstics-compared-930x620_0_mask.png) |
 
 ---
 
