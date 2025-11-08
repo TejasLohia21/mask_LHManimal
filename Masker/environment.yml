@@ -1,0 +1,29 @@
+name: masker-env
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  # Core Python
+  - python=3.10
+
+  # CUDA Toolkit from Conda
+  - cuda-toolkit=11.8
+
+  # PyTorch for CUDA 11.8
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
+  - pytorch-cuda=11.8
+
+  # Other core dependencies
+  - numpy<2.0 # Pinned to avoid chumpy/numpy2 conflict
+  - opencv
+
+  # Pip dependencies
+  - pip
+  - pip:
+    - "git+https://github.com/facebookresearch/detectron2.git"
+    - "git+https://github.com/facebookresearch/segment-anything.git"
+    # Add other pip-only packages here if needed
+    - chumpy
